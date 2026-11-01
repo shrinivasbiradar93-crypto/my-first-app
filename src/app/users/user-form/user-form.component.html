@@ -1,0 +1,187 @@
+<h2 class="bg-danger m-4 p-4"> Angular </h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="form-group">
+
+                <p> Angular is a TypeScript-based web development framework developed and maintained by Google. It is
+                    used to build dynamic, interactive, and single-page web applications (SPAs). </p>
+
+            </div>
+
+            <div class="col-md-6">
+
+
+                <h2>Skills</h2>
+
+                <ul class="list-group">
+                    <li *ngFor="let skills of skills" class="list-group-item my-2 bg-primary">
+                        i love {{skills}}
+                    </li>
+                </ul>
+
+
+                <h2>cities</h2>
+
+                <ul class="list-group">
+                    <li *ngFor="let cities of cities" class="list-group-item my-2 bg-danger">
+                        i love {{cities}}
+                    </li>
+                </ul>
+
+                <h2> Students </h2>
+
+                <ul class="list-group">
+
+                    <li *ngFor="let students of students" class="list-group-item my-2 bg-secondary">
+                        my friend name is {{students}}
+
+                    </li>
+                </ul>
+
+                <h2> books</h2>
+                <ul class="list-group">
+                    <li *ngFor="let books of books" class="list-group-item my-2 bg-danger">
+                        my favourite book is {{books}}
+                    </li>
+                </ul>
+
+                <h2> products </h2>
+                <ul class="list-group">
+                    <li *ngFor="let products of products" class=" list-group-item my-2 bg-secondary">
+                        i want {{products}}
+
+                    </li>
+
+                </ul>
+
+                <h2>colors</h2>
+                <ul class="list-group">
+                    <li *ngFor="let colors of colors" class="list-group-item my-2 bg-primary">
+                        i love {{colors}} color
+                </ul>
+
+                <br>
+
+                <h2> fruits </h2>
+                <ul class="list-group">
+                    <li *ngFor="let fruits of fruits" class="list-group-item my-2 bg-secondary">
+                        i love {{fruits}}
+                    </li>
+                </ul>
+
+                <br>
+
+                <h2 class="bg-danger text-white ">Products</h2>
+                <div *ngFor="let product of products"  class="list-group-item my-2 bg-primary">
+                    {{ product }}
+                </div>
+
+                <br>
+
+                <h2 class="bg-primary text-white ">Books</h2>
+                <div *ngFor="let book of books" class="list-group-item my-2 bg-secondary">
+                    {{ book }}
+                </div>
+
+                <br>
+
+                <h2 class="bg-success text-white p-3">Students</h2>
+                <div *ngFor="let student of students"  class="list-group-item my-2 bg-primary">
+                    {{ student }}
+                </div>
+
+                <br>
+
+                <h2 class="bg-warning p-3">Cities</h2>
+                <div *ngFor="let city of cities" class="list-group-item my-2 bg-secondary">
+                    {{ city }}
+                </div>
+
+                <br>
+
+                <h2 class="bg-info p-3">Skills</h2>
+                <div *ngFor="let skill of skills"  class="list-group-item my-2 bg-primary" >
+                    {{ skill }}
+                </div>
+
+                <br>
+
+                <h2 class="bg-dark text-white p-3">Colors</h2>
+                <div *ngFor="let color of colors"  class="list-group-item my-2 bg-primary">
+                    {{ color }}
+                </div>
+
+                <br>
+
+                <h2 class="bg-danger text-white p-3">Fruits</h2>
+                <div *ngFor="let fruit of fruits"  class="list-group-item my-2 bg-primary">
+                    <p>{{ fruit }}</p>
+                </div>
+
+                <br>
+
+                <h2 class="bg-primary text-white p-3">Countries</h2>
+                <div *ngFor="let country of countries"  class="list-group-item my-2 bg-primary">
+                    <p>{{ country }}</p>
+                </div>
+
+                <br>
+
+                <h2 class="bg-success text-white p-3">Employees</h2>
+                <div *ngFor="let employee of employees" class="list-group-item my-2 bg-secondary">
+                    <p>{{ employee }}</p>
+                </div>
+
+                <br>
+
+                <h2 class="bg-warning p-3">Languages</h2>
+                <div *ngFor="let language of languages"  class="list-group-item my-2 bg-danger">
+                    <p>{{ language }}</p>
+                </div>
+
+                <br>
+
+                <h2 class="bg-info p-3">Vehicles</h2>
+                <div *ngFor="let vehicle of vehicles" class="list-group-item my-2 bg-primary">
+                    <p>{{ vehicle }}</p>
+                </div>
+
+                <br>
+
+                <h2 class="bg-dark text-white p-3">Courses</h2>
+                <div *ngFor="let course of courses"  class="list-group-item my-2 bg-secondary">
+                    <p>{{ course }}</p>
+                </div>
+
+                <br>
+
+                <h2 class="bg-danger text-white p-3">Sports</h2>
+                <div *ngFor="let sport of sports"  class="list-group-item my-2 bg-danger">
+                    <p>{{ sport }}</p>
+                </div>
+
+                <br>
+
+                <h2 class="bg-primary text-white p-3">Mobile Brands</h2>
+                <div *ngFor="let brand of mobileBrands"  class="list-group-item my-2 bg-primary">
+                    <p>{{ brand }}</p>
+                </div>
+
+                <br>
+
+                <h2 class="bg-success text-white p-3">Programming Tools</h2>
+                <div *ngFor="let tool of programmingTools"  class="list-group-item my-2 bg-danger">
+                    <p>{{ tool }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 
+ <h1>{{ title }}</h1>
+
+<h2>Welcome, {{ userName }}</h2>  -->
