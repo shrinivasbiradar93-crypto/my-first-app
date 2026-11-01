@@ -1,16 +1,51 @@
-<h2 class="bg-danger m-4 p-4"> Angular </h2>
+<h2 class="bg-danger m-4 p-4 text-white text-center"> MY FIRST PROGRAM </h2>
+
+
 
 <div class="container">
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-10 offset-1">
             <div class="form-group">
 
-                <p> Angular is a TypeScript-based web development framework developed and maintained by Google. It is
-                    used to build dynamic, interactive, and single-page web applications (SPAs). </p>
+                
+                <h2 > Angular </h2>
+                <p class="bg-primary p-2">{{ Angular }}</p>
+
+                <h2 >Routing</h2>
+                <p class="bg-secondary p-2">{{Routing}}</p>
+
+                <h2 >DataBinding</h2>
+                <p class="bg-success p-2">{{DataBinding}}</p>
+
+                <h2> Interpolation</h2>
+                <p class="bg-danger p-2">{{Interpolation}}</p>
+
+                <h2> Modules</h2>
+                <p class="bg-info p-2">{{Modules}}</p>
+
+                <h2> Component</h2>
+                <p class="bg-success p-2">{{Component}}</p>
+
+                <h2>Directives</h2>
+                <p class="bg-warning p-2">{{Directives}}</p>
+
+                <h2>ngfor</h2>
+                <p class="bg-primary p-2">{{ngfor}}</p>
+
+                <h2>service</h2>
+                <p class="bg-danger p-2">{{service}}</p>
+
+                <h2>ReactiveForm</h2>
+                <p class="bg-info p-2">{{ReactiveForm}}</p>
+
+
+
+
 
             </div>
 
-            <div class="col-md-6">
+
+            <div class="col-md-8 offset-2 mt-5">
 
 
                 <h2>Skills</h2>
@@ -74,7 +109,7 @@
                 <br>
 
                 <h2 class="bg-danger text-white ">Products</h2>
-                <div *ngFor="let product of products"  class="list-group-item my-2 bg-primary">
+                <div *ngFor="let product of products" class="list-group-item my-2 bg-primary">
                     {{ product }}
                 </div>
 
@@ -88,7 +123,7 @@
                 <br>
 
                 <h2 class="bg-success text-white p-3">Students</h2>
-                <div *ngFor="let student of students"  class="list-group-item my-2 bg-primary">
+                <div *ngFor="let student of students" class="list-group-item my-2 bg-primary">
                     {{ student }}
                 </div>
 
@@ -102,28 +137,28 @@
                 <br>
 
                 <h2 class="bg-info p-3">Skills</h2>
-                <div *ngFor="let skill of skills"  class="list-group-item my-2 bg-primary" >
+                <div *ngFor="let skill of skills" class="list-group-item my-2 bg-primary">
                     {{ skill }}
                 </div>
 
                 <br>
 
                 <h2 class="bg-dark text-white p-3">Colors</h2>
-                <div *ngFor="let color of colors"  class="list-group-item my-2 bg-primary">
+                <div *ngFor="let color of colors" class="list-group-item my-2 bg-primary">
                     {{ color }}
-                </div>   
+                </div>
 
                 <br>
 
                 <h2 class="bg-danger text-white p-3">Fruits</h2>
-                <div *ngFor="let fruit of fruits"  class="list-group-item my-2 bg-primary">
+                <div *ngFor="let fruit of fruits" class="list-group-item my-2 bg-primary">
                     <p>{{ fruit }}</p>
                 </div>
 
                 <br>
 
                 <h2 class="bg-primary text-white p-3">Countries</h2>
-                <div *ngFor="let country of countries"  class="list-group-item my-2 bg-primary">
+                <div *ngFor="let country of countries" class="list-group-item my-2 bg-primary">
                     <p>{{ country }}</p>
                 </div>
 
@@ -137,7 +172,7 @@
                 <br>
 
                 <h2 class="bg-warning p-3">Languages</h2>
-                <div *ngFor="let language of languages"  class="list-group-item my-2 bg-danger">
+                <div *ngFor="let language of languages" class="list-group-item my-2 bg-danger">
                     <p>{{ language }}</p>
                 </div>
 
@@ -151,28 +186,28 @@
                 <br>
 
                 <h2 class="bg-dark text-white p-3">Courses</h2>
-                <div *ngFor="let course of courses"  class="list-group-item my-2 bg-secondary">
+                <div *ngFor="let course of courses" class="list-group-item my-2 bg-secondary">
                     <p>{{ course }}</p>
                 </div>
 
                 <br>
 
                 <h2 class="bg-danger text-white p-3">Sports</h2>
-                <div *ngFor="let sport of sports"  class="list-group-item my-2 bg-danger">
+                <div *ngFor="let sport of sports" class="list-group-item my-2 bg-danger">
                     <p>{{ sport }}</p>
                 </div>
 
                 <br>
 
                 <h2 class="bg-primary text-white p-3">Mobile Brands</h2>
-                <div *ngFor="let brand of mobileBrands"  class="list-group-item my-2 bg-primary">
+                <div *ngFor="let brand of mobileBrands" class="list-group-item my-2 bg-primary">
                     <p>{{ brand }}</p>
                 </div>
 
                 <br>
 
                 <h2 class="bg-success text-white p-3">Programming Tools</h2>
-                <div *ngFor="let tool of programmingTools"  class="list-group-item my-2 bg-danger">
+                <div *ngFor="let tool of programmingTools" class="list-group-item my-2 bg-danger">
                     <p>{{ tool }}</p>
                 </div>
             </div>
@@ -181,7 +216,7 @@
 </div>
 
 
-<!-- 
- <h1>{{ title }}</h1>
 
-<h2>Welcome, {{ userName }}</h2>  -->
+<h1>{{ title }}</h1>
+
+<h2>Welcome, {{ userName }}</h2>
